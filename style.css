@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-content: flex-start;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p{
+    text-align: center;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input:focus-visible, textarea:focus-visible {
+    outline: none;
+}
+
+input, textarea, button {
+    padding: 5px;
+    font-size: 15px;
+}
