@@ -10,19 +10,19 @@
             <form method="POST" action="TODO">
                 <div class="form-div">
                     <label>Repositorio de Github</label>
-                    <input id="gh-repo" type="text">
+                    <input id="gh-repo" type="text" name="repo">
                 </div>
                 <div class="form-div">
                     <label>Nombre</label>
-                    <input type="text">
+                    <input type="text" name="name">
                 </div>
                 <div class="form-div">
                     <label>Email</label>
-                    <input type="email">
+                    <input type="email" name="mail">
                 </div>
                 <div class="form-div">
                     <label>Consulta</label>
-                    <textarea class="tx" onclick="txarea()">Escriba aquí su consulta</textarea>
+                    <textarea class="tx" onclick="txarea()" name="consulta">Escriba aquí su consulta</textarea>
                 </div>
                 <div class="form-div">
                     <button type="submit">Enviar</button>
